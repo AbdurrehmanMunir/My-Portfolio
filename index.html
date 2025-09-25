@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Abdurrehman Munir - Computer Science Portfolio</title>
+  <meta name="description" content="Computer Science Student & Aspiring Full-Stack Developer">
+  <meta name="keywords" content="computer science, full-stack developer, database management, algorithms">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    /* Custom styles for computer science portfolio */
+    .accent-text {
+      color: #4a6cf7;
+    }
+    
+    .btn-primary {
+      background-color: #4a6cf7;
+      border-color: #4a6cf7;
+    }
+    
+    .btn-primary:hover {
+      background-color: #3a5ce5;
+      border-color: #3a5ce5;
+    }
+    
+    .btn-secondary {
+      border-color: #4a6cf7;
+      color: #4a6cf7;
+    }
+    
+    .btn-secondary:hover {
+      background-color: #4a6cf7;
+      color: white;
+    }
+    
+    .tech-item {
+      background-color: #f8f9fa;
+      border-radius: 8px;
+      padding: 10px 15px;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      transition: transform 0.3s;
+    }
+    
+    .tech-item:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    
+    .tech-item i {
+      margin-right: 10px;
+      color: #4a6cf7;
+    }
+    
+    .project-card {
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+      transition: transform 0.3s;
+    }
+    
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+    
+    .status-indicator {
+      width: 10px;
+      height: 10px;
+      background-color: #28a745;
+      border-radius: 50%;
+      margin-right: 8px;
+    }
+  </style>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column justify-content-between">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="header-top">
+      <div class="profile-img">
+        <img src="assets/img/profile/mypic2.png" alt="Abdurrehman Munir" class="img-fluid">
+      </div>
+
+      <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+        <h1 class="sitename">Abdurrehman Munir</h1>
+      </a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#skills"><i class="bi bi-gear navicon"></i> Skills</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Projects</a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="social-links text-center">
+      <a href="#" class="twitter"><i class="bi bi-github"></i></a>
+      <a href="#" class="facebook"><i class="bi bi-linkedin"></i></a>
+      <a href="#" class="instagram"><i class="bi bi-stack-overflow"></i></a>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-center">
+          <div class="col-lg-6 order-2 order-lg-1">
+            <div class="hero-content">
+              <h1 data-aos="fade-up" data-aos-delay="200">
+                Computer Science Student &amp;
+                <span class="accent-text">Aspiring Full-Stack Developer</span>
+              </h1>
+              <p class="hero-description" data-aos="fade-up" data-aos-delay="300">
+                I am a passionate Computer Science student focused on building robust, scalable applications. With a solid foundation in software development principles and data structures, I am eager to apply my skills to real-world projects and contribute to innovative solutions.
+              </p>
+              <div class="hero-actions" data-aos="fade-up" data-aos-delay="400">
+                <a href="#portfolio" class="btn-primary">View My Projects</a>
+                <a href="#contact" class="btn-secondary">Get In Touch</a>
+              </div>
+              <div class="hero-stats" data-aos="fade-up" data-aos-delay="500">
+                <div class="stat-item">
+                  <span class="stat-number">3+</span>
+                  <span class="stat-label">Major Projects</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">3+</span>
+                  <span class="stat-label">Years of Education</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">10+</span>
+                  <span class="stat-label">Skills Acquired</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 order-1 order-lg-2">
+            <div class="hero-image" data-aos="fade-up" data-aos-delay="300">
+              <div class="image-wrapper">
+                <img src="assets/img/profile/mypic.png" alt="Abdurrehman Munir - Computer Science Student" class="img-fluid main-image">
+                <div class="floating-card card-1" data-aos="fade-up" data-aos-delay="600">
+                  <i class="bi bi-code-slash"></i>
+                  <span>Full-Stack Development</span>
+                </div>
+                <div class="floating-card card-2" data-aos="fade-up" data-aos-delay="700">
+                  <i class="bi bi-database"></i>
+                  <span>Database Management</span>
+                </div>
+                <div class="floating-card card-3" data-aos="fade-up" data-aos-delay="800">
+                  <i class="bi bi-cpu"></i>
+                  <span>Operating Systems</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="intro-header text-center" data-aos="fade-up" data-aos-delay="150">
+              <h1>Hi, I'm Abdurrehman Munir</h1>
+              <p class="subtitle">Computer Science Student & Developer</p>
+            </div>
+
+            <div class="main-content-wrapper">
+              <div class="row align-items-start">
+                <div class="col-lg-4" data-aos="fade-right" data-aos-delay="200">
+                  <div class="profile-section">
+                    <div class="profile-image-container">
+                      <img src="assets/img/profile/mypic3.png" class="img-fluid" alt="Abdurrehman Munir">
+                    </div>
+                    <div class="profile-meta">
+                      <div class="location">
+                        <i class="bi bi-geo-alt"></i>
+                        <span>Multan, Pakistan</span>
+                      </div>
+                      <div class="status">
+                        <div class="status-indicator"></div>
+                        <span>Available for projects</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-8" data-aos="fade-left" data-aos-delay="250">
+                  <div class="content-area">
+                    <div class="story-block">
+                      <p class="lead-text">My passion for computer science drives me to solve complex problems through code. With a strong academic background in databases, algorithms, and data structures, I'm constantly learning and expanding my technical skill set. My goal is to create impactful and efficient software solutions.</p>
+                      <p>I believe that great software is built on a foundation of clean code, thoughtful architecture, and a deep understanding of both technical requirements and user needs. I'm always excited to tackle new challenges and collaborate on innovative projects.</p>
+                    </div>
+
+                    <div class="expertise-grid">
+                      <div class="expertise-item" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="expertise-icon">
+                          <i class="bi bi-code-slash"></i>
+                        </div>
+                        <div class="expertise-content">
+                          <h4>Full-Stack Development</h4>
+                          <p>Building end-to-end applications using modern frameworks and databases.</p>
+                        </div>
+                      </div>
+
+                      <div class="expertise-item" data-aos="zoom-in" data-aos-delay="350">
+                        <div class="expertise-icon">
+                          <i class="bi bi-database"></i>
+                        </div>
+                        <div class="expertise-content">
+                          <h4>Database Design & Management</h4>
+                          <p>Designing and managing relational and non-relational databases for optimal performance.</p>
+                        </div>
+                      </div>
+
+                      <div class="expertise-item" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="expertise-icon">
+                          <i class="bi bi-diagram-3"></i>
+                        </div>
+                        <div class="expertise-content">
+                          <h4>Algorithmic Problem-Solving</h4>
+                          <p>Applying efficient algorithms and data structures to tackle complex challenges.</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="philosophy-quote" data-aos="fade-up" data-aos-delay="450">
+                      <div class="quote-mark">"</div>
+                      <p>The best code is not about perfection, but about clarity, scalability, and solving the problem with elegance.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bottom-section" data-aos="fade-up" data-aos-delay="500">
+              <div class="row align-items-center">
+                <div class="col-lg-6">
+                  <div class="collaboration-text">
+                    <h3>Let's build something amazing together</h3>
+                    <p>Whether you're looking for a developer for your project or just want to connect, I'd love to hear from you.</p>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="action-buttons">
+                    <a href="#portfolio" class="btn-custom primary">View Projects</a>
+                    <a href="#contact" class="btn-custom secondary">Start a Conversation</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /About Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Technical Skills</h2>
+        <p>I've developed a diverse set of technical skills through my coursework and personal projects. Here's an overview of my proficiency levels in key areas.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="intro-content text-center mb-5" data-aos="fade-up" data-aos-delay="150">
+              <p class="lead-text">Mastery achieved through continuous exploration and dedicated refinement of technical abilities</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="skills-container">
+              <div class="skill-category skills-animation" data-aos="fade-up" data-aos-delay="200">
+                <div class="category-header">
+                  <h3 class="category-title">Technical Expertise</h3>
+                  <p class="category-subtitle">Core development and technical skills</p>
+                </div>
+                <div class="skills-list">
+                  <div class="skill-row">
+                    <div class="skill-info">
+                      <span class="skill-name">Full-Stack Development</span>
+                      <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="skill-row">
+                    <div class="skill-info">
+                      <span class="skill-name">Database Management</span>
+                      <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="skill-row">
+                    <div class="skill-info">
+                      <span class="skill-name">Operating Systems</span>
+                      <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-category skills-animation" data-aos="fade-up" data-aos-delay="250">
+                <div class="category-header">
+                  <h3 class="category-title">Core Computer Science</h3>
+                  <p class="category-subtitle">Fundamental computer science concepts</p>
+                </div>
+                <div class="skills-list">
+                  <div class="skill-row">
+                    <div class="skill-info">
+                      <span class="skill-name">Data Structures & Algorithms</span>
+                      <span class="skill-percentage">88%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="skill-row">
+                    <div class="skill-info">
+                      <span class="skill-name">Computer Architecture</span>
+                      <span class="skill-percentage">82%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="skill-row">
+                    <div class="skill-info">
+                      <span class="skill-name">Automata Theory</span>
+                      <span class="skill-percentage">78%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="skills-sidebar">
+              <div class="expertise-highlight" data-aos="fade-up" data-aos-delay="350">
+                <div class="highlight-icon">
+                  <i class="bi bi-mortarboard"></i>
+                </div>
+                <h4 class="highlight-title">Current GPA</h4>
+                <div class="experience-number">
+                  <span class="purecounter">3.80</span>
+                  <span class="experience-label">/ 4.0</span>
+                </div>
+                <p class="highlight-description">Maintaining excellent academic performance while developing practical skills.</p>
+              </div>
+
+              <div class="technologies-section" data-aos="fade-up" data-aos-delay="400">
+                <h5 class="tech-title">Primary Technologies</h5>
+                <div class="tech-stack">
+                  <div class="tech-item">
+                    <i class="bi bi-filetype-js"></i>
+                    <span>JavaScript</span>
+                  </div>
+                  <div class="tech-item">
+                    <i class="bi bi-code-square"></i>
+                    <span>React</span>
+                  </div>
+                  <div class="tech-item">
+                    <i class="bi bi-database"></i>
+                    <span>PostgreSQL</span>
+                  </div>
+                  <div class="tech-item">
+                    <i class="bi bi-server"></i>
+                    <span>Express.js</span>
+                  </div>
+                  <div class="tech-item">
+                    <i class="bi bi-tools"></i>
+                    <span>Prisma ORM</span>
+                  </div>
+                  <div class="tech-item">
+                    <i class="bi bi-lightning"></i>
+                    <span>Vite</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="achievements-section" data-aos="fade-up" data-aos-delay="450">
+                <h5 class="achievements-title">Academic Achievements</h5>
+                <div class="achievement-list">
+                  <div class="achievement-item">
+                    <div class="achievement-date">2024</div>
+                    <div class="achievement-text">Dean's List</div>
+                  </div>
+                  <div class="achievement-item">
+                    <div class="achievement-date">2023</div>
+                    <div class="achievement-text">Academic Merit Scholarship</div>
+                  </div>
+                  <div class="achievement-item">
+                    <div class="achievement-date">2023</div>
+                    <div class="achievement-text">Perfect Attendance</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Education</h2>
+        <p>My academic journey in computer science has provided me with a strong foundation in both theoretical concepts and practical applications.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="education-grid">
+              <div class="education-card primary" data-aos="zoom-in" data-aos-delay="200">
+                <div class="education-header">
+                  <div class="degree-icon">
+                    <i class="bi bi-award"></i>
+                  </div>
+                  <div class="degree-info">
+                    <h3>Bachelor of Science (BSc) in Computer Science</h3>
+                    <p class="institution">NFC Institute of Engineering and Technology</p>
+                    <span class="graduation-year">2022 - 2026 (expected)</span>
+                  </div>
+                </div>
+                <div class="education-details">
+                  <p>Current GPA: 3.80/4.0. My studies have focused on Databases, Operating Systems, Data Structures & Algorithms, Computer Architecture, and Automata Theory.</p>
+                  <div class="honors">
+                    <span class="honor-badge">Dean's List</span>
+                    <span class="honor-badge">Merit Scholarship</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Projects</h2>
+        <p>Here are some of the projects I've worked on during my computer science studies, showcasing my technical skills and problem-solving abilities.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <div class="filters-wrapper" data-aos="fade-up" data-aos-delay="200">
+            <ul class="portfolio-filters isotope-filters">
+              <li data-filter="*" class="filter-active">All Projects</li>
+              <li data-filter=".filter-web">Web Applications</li>
+              <li data-filter=".filter-database">Database Systems</li>
+              <li data-filter=".filter-academic">Academic Projects</li>
+            </ul>
+          </div>
+
+          <div class="row gy-5 portfolio-container isotope-container" data-aos="fade-up" data-aos-delay="300">
+            <!-- Project 1: Library Management System -->
+            <div class="col-lg-6 portfolio-item isotope-item filter-web filter-database">
+              <div class="portfolio-card project-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/library-system.jpg" class="img-fluid" alt="Library Management System" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/library-system.jpg" class="glightbox action-btn preview-btn" title="Library Management System"><i class="bi bi-eye"></i></a>
+                      <a href="project-details.html" class="action-btn details-btn" title="View Project"><i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <div class="portfolio-meta">
+                    <span class="portfolio-category">Web Application</span>
+                    <span class="portfolio-year">2024</span>
+                  </div>
+                  <h3 class="portfolio-title">Library Management System</h3>
+                  <p class="portfolio-description">A comprehensive system for managing library operations including book tracking, member management, and loan processing with an intuitive user interface.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 2: Simple File System Implementation -->
+            <div class="col-lg-6 portfolio-item isotope-item filter-academic">
+              <div class="portfolio-card project-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/file-system.jpg" class="img-fluid" alt="Simple File System Implementation" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/file-system.jpg" class="glightbox action-btn preview-btn" title="Simple File System Implementation"><i class="bi bi-eye"></i></a>
+                      <a href="project-details.html" class="action-btn details-btn" title="View Project"><i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <div class="portfolio-meta">
+                    <span class="portfolio-category">Academic Project</span>
+                    <span class="portfolio-year">2023</span>
+                  </div>
+                  <h3 class="portfolio-title">Simple File System Implementation</h3>
+                  <p class="portfolio-description">Implemented a basic file system with directory structures, file operations, and storage management to understand operating system concepts.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 3: HealthSync -->
+            <div class="col-lg-6 portfolio-item isotope-item filter-web filter-database">
+              <div class="portfolio-card project-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/healthsync.jpg" class="img-fluid" alt="HealthSync" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/healthsync.jpg" class="glightbox action-btn preview-btn" title="HealthSync"><i class="bi bi-eye"></i></a>
+                      <a href="project-details.html" class="action-btn details-btn" title="View Project"><i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <div class="portfolio-meta">
+                    <span class="portfolio-category">Web Application</span>
+                    <span class="portfolio-year">2024</span>
+                  </div>
+                  <h3 class="portfolio-title">HealthSync</h3>
+                  <p class="portfolio-description">A healthcare management system designed to streamline patient records, appointment scheduling, and medical data management for healthcare providers.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 4: File Management Systems in OS -->
+            <div class="col-lg-6 portfolio-item isotope-item filter-academic">
+              <div class="portfolio-card project-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/os-file-management.jpg" class="img-fluid" alt="File Management Systems in OS" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/os-file-management.jpg" class="glightbox action-btn preview-btn" title="File Management Systems in OS"><i class="bi bi-eye"></i></a>
+                      <a href="project-details.html" class="action-btn details-btn" title="View Project"><i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <div class="portfolio-meta">
+                    <span class="portfolio-category">Academic Project</span>
+                    <span class="portfolio-year">2023</span>
+                  </div>
+                  <h3 class="portfolio-title">File Management Systems in OS</h3>
+                  <p class="portfolio-description">Research and implementation project exploring different file management techniques used in modern operating systems.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 5: Cause & Effect of Obesity -->
+            <div class="col-lg-6 portfolio-item isotope-item filter-academic">
+              <div class="portfolio-card project-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/obesity-research.jpg" class="img-fluid" alt="Cause & Effect of Obesity" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/obesity-research.jpg" class="glightbox action-btn preview-btn" title="Cause & Effect of Obesity"><i class="bi bi-eye"></i></a>
+                      <a href="project-details.html" class="action-btn details-btn" title="View Project"><i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <div class="portfolio-meta">
+                    <span class="portfolio-category">Research Project</span>
+                    <span class="portfolio-year">2023</span>
+                  </div>
+                  <h3 class="portfolio-title">Cause & Effect of Obesity</h3>
+                  <p class="portfolio-description">Data analysis project examining the factors contributing to obesity and its effects on health outcomes using statistical methods.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 6: Community Engagement Approaches -->
+            <div class="col-lg-6 portfolio-item isotope-item filter-academic">
+              <div class="portfolio-card project-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/community-engagement.jpg" class="img-fluid" alt="Community Engagement Approaches" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/community-engagement.jpg" class="glightbox action-btn preview-btn" title="Community Engagement Approaches"><i class="bi bi-eye"></i></a>
+                      <a href="project-details.html" class="action-btn details-btn" title="View Project"><i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <div class="portfolio-meta">
+                    <span class="portfolio-category">Research Project</span>
+                    <span class="portfolio-year">2023</span>
+                  </div>
+                  <h3 class="portfolio-title">Community Engagement Approaches</h3>
+                  <p class="portfolio-description">Study of different strategies for community engagement and their effectiveness in various social contexts.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Portfolio Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>I'm always interested in new opportunities and collaborations. Feel free to reach out if you'd like to discuss projects or just connect!</p>
+      </div>
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5">
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="bi bi-chat-dots"></i>
+              </div>
+              <div class="info-content">
+                <h4>Let's Connect</h4>
+                <p>I'm here to discuss potential projects, collaborations, or any questions you might have.</p>
+              </div>
+            </div>
+
+            <div class="contact-details">
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <i class="bi bi-envelope-open"></i>
+                </div>
+                <div class="detail-content">
+                  <span class="detail-label">Email me</span>
+                  <span class="detail-value">abdurrehman@example.com</span>
+                </div>
+              </div>
+
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <i class="bi bi-geo-alt-fill"></i>
+                </div>
+                <div class="detail-content">
+                  <span class="detail-label">Location</span>
+                  <span class="detail-value">Multan, Pakistan</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="form-wrapper">
+              <div class="form-header">
+                <h3>Send me a message</h3>
+              </div>
+
+              <form action="forms/contact.php" method="post" class="php-email-form">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label>Full Name</label>
+                      <input type="text" name="name" required="">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label>Email Address</label>
+                      <input type="email" name="email" required="">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label>Subject</label>
+                  <input type="text" name="subject" required="">
+                </div>
+
+                <div class="form-group">
+                  <label for="projectMessage">Message</label>
+                  <textarea name="message" id="projectMessage" rows="5" required=""></textarea>
+                </div>
+
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                  <span>Send Message</span>
+                  <i class="bi bi-arrow-right"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+    <div class="container">
+      <h3 class="sitename">Abdurrehman Munir</h3>
+      <p>Computer Science Student passionate about building innovative solutions through code.</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href="#"><i class="bi bi-github"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+        <a href="#"><i class="bi bi-stack-overflow"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename">Abdurrehman Munir</strong> <span>All Rights Reserved</span>
+        </div>
+        <div class="credits">
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
